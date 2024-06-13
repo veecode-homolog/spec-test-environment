@@ -8,8 +8,8 @@ metadata:
     vpc_id: vpc-051721395ecf1f7aa
     vpc_name: platform_homolog_vpc
     vpc_region: us-east-1
-    subnet_id: 
-    subnet_name: 
+    subnet_id: subnet-04dda6147dd9410f1
+    subnet_name: platform_homolog_subnet
     terraformStateBucketName: veecode-homolog-terraform-state
     terraformStateBucketRegion: us-east-1
   annotations:
