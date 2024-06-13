@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: spec-test-environment
+  environment:
+    domain: spec.platform.vee.codes
+    hostedZoneId: Z08453091DFKAR6BAN261
+    vpc_id: vpc-051721395ecf1f7aa
+    vpc_name: platform_homolog_vpc
+    vpc_region: us-east-1
+    subnet_id: 
+    subnet_name: 
+    terraformStateBucketName: veecode-homolog-terraform-state
+    terraformStateBucketRegion: us-east-1
+  annotations:
+    github.com/project-slug: veecode-homolog/spec-test-environment
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: development
+  owner: "group:default/admin"
