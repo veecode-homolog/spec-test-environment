@@ -10,6 +10,7 @@ metadata:
     vpc_region: us-east-1
     subnet_id: subnet-04dda6147dd9410f1
     subnet_name: platform_homolog_subnet
+    keypair_name: platform_kp
     terraformStateBucketName: veecode-homolog-terraform-state
     terraformStateBucketRegion: us-east-1
   annotations:
